@@ -1,0 +1,6 @@
+/etc/dbus-1/system.d/net.hadess.SensorProxy.conf
+/etc/dbus-1/system.d/net.hadess.PowerProfiles.conf
+/etc/dbus-1/system.d/net.hadess.SwitcherooControl.conf
+/etc/sane.d/net.conf
+/etc/java-11-openjdk/net.properties
+/etc/issue.net
