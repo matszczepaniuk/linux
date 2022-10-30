@@ -1,0 +1,30 @@
+Zad. 4:
+man grep
+
+
+
+Zad. 6:
+cd ~
+find
+
+find -size +15625
+
+find | grep -w "hello" | sort -n (co do tego mam wątpliwości, czy wynik wyszukiwania, to
+dokładnie to, co było poszukiwane)
+
+Zad.7:
+find . -mtime -1 -print > "all_today"
+
+sudo find /etc -name net > "find_etc"
+
+Zad. 8:
+sudo useradd -s /bin/bash -d /home/henryk/ -m -G sudo henryk
+sudo passwd henryk
+O kurwa, po kilku wtopach, działa :O
+
+Zad. 9:
+sudo groupadd zwyrole
+
+sudo usermod -a -G zwyrole henryk
+sudo usermod -a -G zwyrole mateuszsz
+
